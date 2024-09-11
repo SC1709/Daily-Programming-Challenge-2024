@@ -19,10 +19,10 @@ int Duplicates2(vector<int> arr,int n){
     return sum-total;
 }
 int main(){
-    vector<int> a={1,1};
+    vector<int> a={1,4,2,3,4,5,6,7,8};
     // sort(a.begin(),a.end());
     int n = a.size();
-    cout<<Duplicates2(a,n-1)<<endl;
+    cout<<Duplicates1(a,n-1)<<endl;
     cout<<Duplicates2(a,n-1);
     return 0;
 }
