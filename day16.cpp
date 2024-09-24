@@ -17,5 +17,5 @@ int main(){
     long long int a,b;
     cin>>a>>b;
     cout<<lcm(a,b)<<endl;
-    return 0;
+    return 0; 
 }
