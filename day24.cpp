@@ -58,7 +58,7 @@ int lowestCommonAncestor(Node *root,int x,int y){
     }
 }
 int main(){
-    vector<int> arr={3,5,1,6,2,0,8,-1,-1,7,4};
+    vector<int> arr={3,5,1,6,2,0,8,-1,-1,7,4}; //consider -1 as null
     Node *root= buildTree(arr);
     int p=5;
     int q=4;
